@@ -1,0 +1,447 @@
+.hansel-body {
+  margin: 0;
+  padding: 24px 16px;
+  background-color: #fbfcfe;
+  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+  color: #14284b;
+}
+
+
+
+
+
+
+
+
+.hansel-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+.hansel-page {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.hansel-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  padding: 30px 36px;
+  background-color: #e1edfc;
+  border: 3px solid #2f5b99;
+  border-radius: 28px;
+}
+
+
+
+
+
+
+
+
+.hansel-photo-link {
+  flex-shrink: 0;
+  display: block;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #a9c4e8;
+}
+
+
+
+
+
+
+
+
+.hansel-photo {
+  width: 250px;  /* Wajib diisi angka (contoh: 150px) */
+  height: 250px; /* Wajib diisi angka (contoh: 150px) */
+  background-image: url('https://lh3.googleusercontent.com/a/ACg8ocIhfn07L3HhZlN5Z_48oysHoy-c8JaeV3KqUnigDhrddwpNjC4=s83-c-mo');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%; /* Opsional: tambahkan baris ini jika ingin foto berbentuk bulat */
+}
+
+
+
+
+
+
+
+.hansel-identity {
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+.hansel-name {
+  margin: 0 0 12px;
+  padding-bottom: 14px;
+  font-size: 36px;
+  line-height: 1.1;
+  color: #14284b;
+  border-bottom: 3px solid #2f5b99;
+}
+
+
+
+
+
+
+
+
+.hansel-role {
+  margin: 0;
+  font-size: 24px;
+  color: #2f5b99;
+}
+
+
+
+
+
+
+
+
+.hansel-spark {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  width: 52px;
+  height: 52px;
+  stroke: #14284b;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+
+
+
+
+
+
+
+.hansel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 18px;
+  margin-top: 28px;
+  align-items: start;
+}
+
+
+
+
+
+
+
+
+.hansel-column {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+
+
+
+
+
+
+
+.hansel-card {
+  background-color: #ffffff;
+  border: 3px solid #2f5b99;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+.hansel-card-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0;
+  padding: 12px 16px;
+  font-size: 22px;
+  color: #14284b;
+  background-color: #dce8fa;
+}
+
+
+
+
+
+
+
+
+.hansel-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #1f4a85;
+}
+
+
+
+
+
+
+
+
+.hansel-badge .hansel-icon {
+  width: 22px;
+  height: 22px;
+  fill: #ffffff;
+}
+
+
+
+
+
+
+
+
+.hansel-icon {
+  width: 24px;
+  height: 24px;
+  fill: #1f4a85;
+}
+
+
+
+
+
+
+
+
+.hansel-icon-title {
+  width: 38px;
+  height: 38px;
+}
+
+
+
+
+
+
+
+
+.hansel-icon-small {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+.hansel-icon-large {
+  width: 44px;
+  height: 44px;
+}
+
+
+
+
+
+
+
+
+.hansel-card-body {
+  list-style: none;
+  margin: 0;
+  padding: 16px 20px 20px;
+}
+
+
+
+
+
+
+
+
+.hansel-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+
+.hansel-item:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+.hansel-dot::before {
+  content: "";
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1f4a85;
+}
+
+
+
+
+
+
+
+
+.hansel-line {
+  flex: 1;
+  padding-bottom: 4px;
+  font-size: 15px;
+  color: #3d5578;
+  border-bottom: 2px solid #2f5b99;
+}
+
+
+
+
+
+
+
+
+.hansel-interests {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+}
+
+
+
+
+
+
+
+
+.hansel-about {
+  margin-top: 22px;
+}
+
+
+
+
+
+
+
+
+.hansel-paragraph {
+  margin: 0 0 16px;
+}
+
+
+
+
+
+
+
+
+.hansel-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 640px) {
+  .hansel-header {
+    flex-direction: column;
+    text-align: center;
+    padding: 28px 20px;
+  }
+
+
+
+
+
+
+
+
+  .hansel-name {
+    font-size: 12px;
+  }
+
+
+
+
+
+
+
+
+  .hansel-role {
+    font-size: 18px;
+  }
+
+
+
+
+
+
+
+
+  .hansel-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
